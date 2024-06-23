@@ -53,14 +53,6 @@ export default function FlagCard({ card, onUpdate, onDelete }) {
             />
             <input
               type="text"
-              placeholder="Flag URL"
-              value={updatedCountry.flag}
-              onChange={(e) =>
-                setUpdatedCountry({ ...updatedCountry, flag: e.target.value })
-              }
-            />
-            <input
-              type="text"
               placeholder="Name"
               value={updatedCountry.name}
               onChange={(e) =>
