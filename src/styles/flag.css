@@ -1,0 +1,11 @@
+.flag-container {
+  padding-inline: 50px;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.flag-lists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}

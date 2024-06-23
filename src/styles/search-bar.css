@@ -1,0 +1,28 @@
+.search-bar {
+  display: flex;
+  gap: 20px;
+  padding: 20px 50px;
+  align-items: center;
+  color: gray;
+  box-shadow: 0px 2px 12px 0px rgba(67, 0, 175, 0.15);
+  border-radius: 6px;
+  width: 100%;
+  padding-left: 3.25rem;
+  border: none;
+}
+
+.search-bar:focus {
+  outline: 0.5px solid #8a24ff;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-container i {
+  position: absolute;
+  left: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
